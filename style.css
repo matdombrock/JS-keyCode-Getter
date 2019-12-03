@@ -1,0 +1,25 @@
+body{
+  background:rgb(40, 40, 75);
+  color:white;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+  text-align:center;
+  margin:0 auto;
+}
+.output{
+  margin-top:calc( 50vh - 1em );
+  font-size:10vw;
+  border-bottom:0.1em solid white;
+}
+.copy{
+  color:grey;
+  margin-top:1rem;
+  cursor: pointer;
+  font-size:6vw;
+  transition:color 0.2s;
+}
+.copy:hover{
+  color:white;
+}
+.copy:active{
+  color:rgb(255, 174, 0);
+}
